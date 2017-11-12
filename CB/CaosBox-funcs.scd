@@ -47,7 +47,6 @@
 	for(0,steps.size-1,{|i|
 		a=steps[i];
 		dir[track][0][a].valueAction_(false);
-		// dir[track][1].put(a,nil);
 	});
 	"Manually cleared step pattern".inform;
 };
@@ -61,7 +60,6 @@
 	for(0,steps.size-1,{|i|
 		b=steps[i];
 		dir[track][0][b].valueAction_(true);
-		// dir[track][1].put(b,dir[track][2]);
 	});
 	"Manually added step pattern".inform;
 };

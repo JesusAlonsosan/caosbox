@@ -1,5 +1,5 @@
 //CaosBox v1.1 Soundcheck + Welcome + Complementary files
-(
+/*(
 Task({|i|
 	var texto = "CaosBox v1.1";
 	var display = texto.size*4;
@@ -29,16 +29,16 @@ Task({|i|
 		i=i+1;
 		0.1.wait;
 	};
-	1.do{crece.join.inform;"CaosBox v1.1".inform};
+	1.do{crece.join.inform;"CaosBox v1.1 \n".inform};
 	1.yield;
-	1.do{"Bienvenido/Welcome.".inform};
-	1.yield;
-	1.do{" + CaosBox v1.1 es una Máquina no tan común, para hacer Algorave/Livecoding con CaosPercLib. \n + CaosBox v1.1 is a not so common Algoraving/Livecoding Machine for CaosPercLib. \n + Escrito/Written: @joseCao5  [at]: http://www.josecaos.xyz".inform};
+	1.do{"Bienvenido/Welcome. \n".inform};
+	3.yield;
+	1.do{" + CaosBox v1.1 es una Máquina no tan común, para hacer Algorave/Livecoding con CaosPercLib. \n \n + CaosBox v1.1 is a not so common Algoraving/Livecoding Machine for CaosPercLib. \n \n + Escrito/Written: @joseCao5 \n".inform};
 	2.yield;
 	//
 	1.do{" => Abierto/Opened: CaosBox_liveCodePad-default.scd".inform};
 }).play;
-);
+);*/
 //
 (~url +/+ "CB/CaosBox-midi.scd").load;
 (~url +/+ "CB/CaosBox-vars.scd").load;

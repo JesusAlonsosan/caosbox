@@ -11,10 +11,10 @@
 
 (
 // History.start;
-s.waitForBoot{
+/*s.waitForBoot{
 	~url = thisProcess.nowExecutingPath.dirname;
 	(~url +/+ "CB/CaosBox-load.scd").load;
-};
+};*/
 );
 
 ///////////////////////////
